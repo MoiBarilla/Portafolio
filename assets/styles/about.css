@@ -1,0 +1,57 @@
+@import "./root.css";
+
+section.about {
+  align-items: center;
+  background: var(--primary-color);
+  display: flex;
+  font-weight: lighter;
+  justify-content: center;
+  letter-spacing: 1.2px;
+}
+
+.about__container {
+  align-items: center;
+  background: var(--tertiary-color);
+  border: 1px solid var(--hover-font-color);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 0 2.5% 0 2.5%;
+  width: 75%;
+}
+
+.about__title {
+  color: #ffffff;
+  font-size: var(--titles);
+  letter-spacing: 2px;
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+.about__paragraph {
+  color: #ffffff;
+  font-size: var(--paragraphs);
+  margin: 25px 0;
+}
+
+@media (max-width: 922px) {
+  .about__container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .about__paragraph {
+    font-size: var(--static-paragraphs);
+    font-weight: 400;
+    margin: 10px 0;
+  }
+}

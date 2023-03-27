@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+    <!-- <link rel="stylesheet" href="./assets/styles/nav.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Raleway:wght@900&display=swap"
+        rel="stylesheet">
+    <!-- Logo -->
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+    <title> Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+        <div class="logo__hamburger__container">
+            <a class="menu__header" href="#inicio">
+                <img class="logo" src="assets/logo.svg">
+                <img class="logo__tablet" src="assets/logo__tablet.svg">
+                <h3 class="menu__title">Moises Barilla</h3>
+            </a>
+            <div class="hamburger__menu" for="menu__hamburger">
+                <div class="menu__hamburger__bars">
+                    <span class="menu__hamburger__line1"></span>
+                    <span class="menu__hamburger__line2"></span>
+                    <span class="menu__hamburger__line3"></span>
+                </div>
+            </div>
+        </div>
+        <div class="btn__container">
+            <div class="menu__list__button email__container flex">
+                <a class="menu__list__item--email" href="mailto:moi.barilla@gmail.com">moi.barilla@gmail.com</a>
+            </div>
+        </div>
+        <nav class="nav nav--tablet none">
+                <ul class="menu__list menu__list--tablet none">
+                    <li class="menu__list__item"><a class="menu__list__item--a nav-item" href="#inicio">Inicio</a></li>
+                    <li class="menu__list__item"><a class="menu__list__item--a nav-item" href="#sobre-mi">Sobre mi</a></li>
+                    <li class="menu__list__item"><a class="menu__list__item--a nav-item" href="#formacion">Formación</a></li>
+                    <li class="menu__list__item"><a class="menu__list__item--a nav-item" href="#xp">Proyectos</a></li>
+                    
+                    <li class="menu__list__button flex">
+                        <a type="button" class="menu__list__item--email"
+                            href="mailto:moi.barilla@gmail.com">moi.barilla@gmail.com</a>
+                    </li>
+                </ul>
+
+        </nav>
+
+    </section>
+    <div class="scroll-tracker"></div>
+
+    
+    <main class="tudo">
+        <!-- Sección del Header/Title/Hero -->
+        <section id="inicio" class="title">
+            <div class="title__div">
+                <img class="title__profile" src="assets/MoiBarilla.png">
+                <div class="title__container">
+                    <h2 class="title__bio">Hola, mi nombre es <br class="br__name"><span class="name">Moises
+                            Barilla.</span> <br> Soy
+                        desarrollador Front end</h2>
+                    <h3 class="title__subsection">Me apasiona la tecnología, me encanta aprender cosas nuevas y me gusta
+                        trabajar en proyectos innovadores que me permitan poner en práctica mis conocimientos.</h3>
+                    <ul class="title__network">
+                        <!-- Pon los enlaces de tus redes sociales favoritas -->
+                        <li class="title__network__item"><a class="title__network__item--a shine" href="https://github.com/MoiBarilla">Github <img
+                                    src="assets/arrow.svg"></a></li>
+                        <li class="title__network__item"><a class="title__network__item--a shine" href="https://www.linkedin.com/in/moises-barilla/">Linkedin <img
+                                    src="assets/arrow.svg"></a></li>
+                        <li class="title__network__item"><a class="title__network__item--a shine" href="https://instagram.com/moibarilla?igshid=ZDdkNTZiNTM=">Instagram <img
+                                    src="assets/arrow.svg"></a></li>
+                        <li class="title__network__item"><a class="title__network__item--a shine" target="_blank" href="">Currículo <img
+                                    src="assets/arrow.svg"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="aside__email">
+            <a class="email shine" href="mailto:moi.barilla@gmail.com">moi.barilla@gmail.com</a>
+        </div>
+
+        <!-- Sección sobre mi -->
+        <section class="about" id="sobre-mi">
+            <div class="about__container">
+                <h3 class="about__title">Sobre mi</h3>
+                <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
+                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
+                    Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
+                <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
+                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
+                    Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas
+                    metus vitae, aliquet metus.</p>
+                <!-- Si quieres, pon tú firma acá! -->
+                <img src="assets/signature.png">
+            </div>
+        </section>
+
+        <!-- Sección de Skills -->
+        <section class="skills">
+            <h3 class="skills__title">Habilidades</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"><img src="assets/html-icon.svg"></li>
+                        <li class="skills__name"> HTML 5</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"> <img src="assets/css-icon.svg" alt=""> </li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"> <img src="assets/sass-icon.svg" alt=""></li>
+                        <li class="skills__name">SASS</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"> <img src="assets/js-icon.svg" alt=""></li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"> <img src="assets/react-icon.svg" alt=""> </li>
+                        <li class="skills__name">React</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"><img class="skills__img--item" src="assets/axios-icon.svg" alt=""></li>
+                        <li class="skills__name">Axios</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"><img src="assets/nodejs-icon.svg" alt=""></li>
+                        <li class="skills__name">Node JS</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"><img src="assets/git-icon.svg" alt=""></li>
+                        <li class="skills__name">Git</li>
+                    </ul>
+                </div>
+
+                <div class="skills__box">
+                    <ul class="skills__text">
+                        <li class="skills__img"><img src="assets/github-icon.svg" alt=""></li>
+                        <li class="skills__name">Github</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección de Formación académica -->
+        <section class="academic" id="formacion">
+            <h2 class="academic__title">Formación académica</h2>
+            <div class="academic__courses">
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!-- Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item__img"><img class="academic__courses__item__img--vla"
+                                src="assets/vla_logo.png"></li>
+                        <li class="academic__courses__item__title">
+                            <h4>Front end</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2022 - VLA</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!--Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item__img"><img class="academic__courses__item__img--one"
+                                src="assets/one_alura.svg"></li>
+                        <li class="academic__courses__item__title">
+                            <h4>Front End G4</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2023 - Alura</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!-- Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item__img"><img class="academic__courses__item__img--platzy"
+                                src="assets/platzy_logo.png"></li>
+                        <li class="academic__courses__item__title">
+                            <h4>Desarrollo Web</h4>
+                        </li>
+                        <li class="academic__courses__item__subtitle">
+                            <p>2023 - Platzy</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia Profesional/Proyectos-->
+        <section class="experience" id="xp">
+            <h2 class="experience__section__title">Experiencia Profesional</h2>
+
+            <hr>
+
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/secretcode_print.png">
+                <div class="experience__info-container">
+                    <h2 class="experience__title">Encriptador de texto</h2>
+                    <h3 class="experience__text">Challenge Oracle </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo">
+                            <a href="https://github.com/alura-challenges/challenge-one-encriptador-latam">
+                                <button class="experiencia__botao--repo shine">Repositorio</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo">
+                            <a href="">
+                                <button class="experience__botao--demo shine">Ver demo</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img order" src="assets/decod_print.png">
+                <div class="experience__info-container">
+                    <h2 class="experience__title">Encriptador de texto</h2>
+                    <h3 class="experience__text">Challenge Alura Codificador </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo">
+                            <a href="https://github.com/alura-challenges/challenge-one-encriptador-latam">
+                                <button class="experiencia__botao--repo shine">Repositorio</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo">
+                            <a href="">
+                                <button class="experience__botao--demo shine">Ver demo</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="experience__box">
+                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                <img class="experience__img" src="assets/forca_print.png">
+                <div class="experience__info-container">
+                    <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
+                    <h3 class="experience__text">Challenge Oracle </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo">
+                            <a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado">
+                                <button class="experiencia__botao--repo shine">Repositorio</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo">
+                            <a href="">
+                                <button class="experience__botao--demo shine">Ver demo</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="experience__box">
+                <img class="experience__img order" src="assets/forca2_print.png">
+                <div class="experience__info-container">
+                    <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
+                    <h3 class="experience__text">Challenge Oracle </h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                        <span class="experience__repo">
+                            <a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado">
+                                <button class="experiencia__botao--repo shine">Repositorio</button>
+                            </a>
+                        </span>
+                        <span class="experience__demo">
+                            <a href="">
+                                <button class="experience__botao--demo shine">Ver demo</button>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div class="formcontato__contacto">
+                <div class="formcontato--izquierda">
+                    <img class="formcontato__img" src="assets/contact_image.png">
+                </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="formcontato__subtext">Completa el siguiente formulario y me pondré en contacto contigo lo
+                        antes posible. </h3>
+                    <form class="formcontato__form" name="form">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" data-name>
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" data-email>
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" data-subject>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" name="mensaje"
+                            placeholder="Mensaje" data-message></textarea>
+                        <button type="submit" class="formcontato__botao" data-btn>Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <!-- <div class="noise__effect"></div> -->
+            <p class="footer__text"> Developed By &copy;Moises Barilla &nbsp; 2022</p>
+            <div class="footer__container">
+                <a target="_blank" href="https://github.com/MoiBarilla/">
+                    <img class="footer__img" src="./assets/github-icon-footer.svg" alt="Github Logo">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/moises-barilla/">
+                    <img class="footer__img" src="./assets/linkedin-icon-footer.svg" alt="LinkedIn logo">
+                </a>
+                <a target="_blank" class="enlace" href="https://instagram.com/moibarilla?igshid=ZDdkNTZiNTM=">
+                    <img class="footer__img" src="./assets/instagram-circle-footer.svg" alt="Instagram Logo">
+                </a>
+            </div>
+        </footer>
+    </main>
+    <!-- Script del documento JavaScript -->
+    <script type="module" src="./assets/scripts/scroll.js"></script>
+    <script src="./assets/scripts/validacion.js"></script>
+    <script type="module" src="./assets/scripts/hamburgerMenu.js"></script>
+</body>
+
+</html>

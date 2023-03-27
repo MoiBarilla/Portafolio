@@ -1,0 +1,50 @@
+.aside__email {
+  align-items: center;
+  background-color: none;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  margin-right: -100px;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  transform: rotateZ(90deg);
+  top: 38rem;
+}
+
+.email {
+  border: 1px solid transparent;
+  color: var(--hover-font-color);
+  font-size: var(--static-skills-name);
+  padding: 25px;
+  text-align: center;
+}
+
+.email:hover {
+  background: var(--tertiary-color);
+  border: 1px solid var(--tertiary-font-color);
+  border-radius: 3px;
+}
+
+@media (max-width: 922px) {
+  .aside__email {
+    margin-right: -100px;
+    position: fixed;
+    top: 30rem;
+    z-index: 3;
+  }
+  .email {
+    font-size: 1.8rem;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 768px) {
+  .aside__email {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .aside__email {
+    display: none;
+  }
+}

@@ -1,0 +1,57 @@
+:root {
+    /* Backgrounds Colors */
+    --primary-color: #101d42;
+    --secondary-color: #fafafa;
+    --tertiary-color: #01010f;
+    --cuaternary-color: #dde8f0;
+    --quinary-color: #eba937;
+    --blur-color: #101d4269;
+
+    /* Font Colors */
+    --primary-font-color: #ffffff;
+    --secondary-font-color: #131313;
+    --tertiary-font-color: #bd9e57;
+    --font-muted: #797979;
+    --font-muted-hero: #ffffffa3;
+    --font-muted-second: #eba93783;
+    --hover-font-color: #ffcf00;
+    --name-font-color: #0008ff;
+    --hover-btn-color: #0008ffcc;
+    --hover-btn-hero: #13131380;
+
+
+    /* Font Sizes Titles */
+    --menu-title: clamp(2.2rem, 3vh, 3.2rem);
+    --title-hero: clamp(2.8rem, 4.5vw, 8rem);
+    --titles: clamp(2.8rem, 3.5vw, 4.8rem);
+    --title-experience: clamp(3.2rem, 4vw, 8rem);
+    --title-academic: clamp(1.8rem, 2vw, 2.4rem);
+
+    /* Font Sizes Subtitles */
+    --subtitle-academic: clamp(1.6rem, 1.8vw, 2.2rem);
+    --subtitle-experience: clamp(2.2rem, 3vw, 4.8rem);
+
+    /* Font Sizes paragraph */
+    --paragraph-hero: clamp(1.8rem, 3vh, 3.2rem);
+    --paragraphs: clamp(1.6rem, 3vh, 3.2rem);
+    --paragraph-experience: clamp(1.8rem, 2.5vw, 3.2rem);
+    --paragraph-button-experience: clamp(1.6rem, 1.8vw, 2.8rem);
+    --paragraph-footer: clamp(1.6rem, 2vw, 2.4rem);
+
+
+    /* Static Font Sizes */
+    --static-title-hero: 2.4rem;
+    --static-titles: 2.8rem;
+    --static-subtitle: 1.8rem;
+    --static-paragraphs: 1.6rem;
+    --static-skills-name: 2.2rem;
+    --static-experience-title: 3.2rem;
+
+    /* Box Color */
+    --box-skill-color: #ffffffb4;
+    --box-skill-color-hover: #ffffffd5;
+
+    /* Box Shadows */
+    --box-shadow: 2px 2px 15px 5px rgba(116, 116, 116, 0.5);
+    --box-shadow-hover: 2px 2px 15px 5px rgba(41, 44, 109, 0.5);
+}

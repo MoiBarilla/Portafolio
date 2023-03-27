@@ -1,0 +1,48 @@
+@import "./root.css";
+
+.footer {
+  align-items: center;
+  background: var(--tertiary-color);
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  justify-content: center;
+  padding-top: 25px;
+  padding: 100px 0;
+  width: 100%;
+}
+
+.footer__text {
+  color: var(--font-muted);
+  font-size: var(--paragraph-footer);
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.footer__container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 25px;
+  width: 100%;
+}
+
+.footer__img {
+  border: 50%;
+  height: 50px;
+  margin: 10px;
+  width: 50px;
+}
+
+@media (max-width: 922px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 500px) {
+  .footer__text {
+    font-size: var(--static-paragraphs);
+  }
+}
