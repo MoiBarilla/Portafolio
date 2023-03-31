@@ -1,5 +1,3 @@
-@import "./root.css";
-
 section.experience {
   align-items: center;
   background: url(../experience.svg) center / cover no-repeat;

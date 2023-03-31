@@ -1,5 +1,3 @@
-@import "./root.css";
-
 .scroll-tracker {
   background: var(--name-font-color);
   inset: 0 auto 0 0;

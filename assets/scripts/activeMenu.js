@@ -9,9 +9,9 @@ export function scrollMenuActive() {
             const sectionId = e.getAttribute('id');
             const sectionClass = document.querySelector(`.menu nav a[href*= ${sectionId} ]`);
             
-            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            if ( (scrollY > sectionTop) && (scrollY <= (sectionTop + sectionHeight)) ) {
                 sectionClass.classList.add('active');
-            }else{
+            } else {
                 sectionClass.classList.remove('active');
             }
         });

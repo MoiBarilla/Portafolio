@@ -34,7 +34,7 @@ function showNavbar() {
 }
 
 function hideNavbar() {
-    // First remove and add flex/none abd fade-in/fade-out class
+    // First remove and add flex/none and fade-in/fade-out class
     emailContainer.classList.remove("none");
     emailContainer.classList.add("flex");
     emailContainer.classList.remove("email__fade-out");
@@ -53,7 +53,7 @@ function showAndHideNavbar() {
 
         // Validation to show the navbar in tablet and mobile devices
     if (emailContainer.classList.contains("flex") 
-        && navTablet.classList.contains("none")) {
+        && navTablet.classList.contains("nav")) {
             showNavbar();
 
         // Validation to hide the navbar in tablet and mobile devices

@@ -1,5 +1,3 @@
-@import "./root.css";
-
 section.title {
   align-items: center;
   background: url(../banner.svg) center /cover  no-repeat;

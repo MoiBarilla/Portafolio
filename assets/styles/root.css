@@ -6,6 +6,9 @@
     --cuaternary-color: #dde8f0;
     --quinary-color: #eba937;
     --blur-color: #101d4269;
+    --invalid: #df2828;
+    --invalid-background: #ff00000a;
+
 
     /* Font Colors */
     --primary-font-color: #ffffff;
