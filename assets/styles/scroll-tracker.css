@@ -11,6 +11,9 @@
 }
 
 @media (max-width: 922px) {
+  .scroll-tracker {
+    margin-bottom: 370px;
+  }
 }
 @media (max-width: 768px) {
   .scroll-tracker {

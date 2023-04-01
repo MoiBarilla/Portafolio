@@ -36,7 +36,6 @@ hr {
 .experience__img {
   margin: 25px 0;
   width: 50%;
-  min-width: 325px;
 }
 
 .order {
@@ -47,7 +46,7 @@ hr {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 5px;
   width: 45%;
 }
 
@@ -125,6 +124,10 @@ hr {
   .experience__box {
     width: 90%;
   }
+  .experience__img {
+    margin: 25px 0;
+    width: 100%;
+  }
   .experience__info-container {
     width: 45%;
   }
@@ -133,6 +136,9 @@ hr {
   }
   .experience__text {
     margin-top: 0;
+  }
+  .order {
+    order: 0;
   }
   .experience__info-container {
     gap: 0;
@@ -163,7 +169,6 @@ hr {
   .experience__img {
     margin: 25px 0;
     width: 100%;
-    min-width: 95%;
   }
   .order {
     order: 0;
@@ -175,7 +180,16 @@ hr {
     text-align: center;
   }
   .experience__description {
+    gap: 10px;
     min-width: 0;
     width: 100%;
+  }
+  .experience__img {
+    margin: 25px 0;
+    min-width: 200px;
+    width: 100%;
+  }
+  .order {
+    order: 0;
   }
 }

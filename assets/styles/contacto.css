@@ -12,15 +12,6 @@ section.formcontato {
   gap: 25px;
   justify-content: center;
   padding: 100px 0;
-  width: 80%;
-}
-
-.formcontato--izquierda {
-  width: 50%;
-}
-
-.formcontato__img {
-  width: 90%;
 }
 
 .formcontato__text {
@@ -31,8 +22,10 @@ section.formcontato {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 100px 0;
+  min-width: 600px;
   padding: 25px;
-  width: 600px;
+  width: 50%;
 }
 
 .formcontato__title {
@@ -138,28 +131,24 @@ section.formcontato {
     justify-content: center;
     width: 80%;
   }
-  .formcontato--izquierda {
-    display: none;
-  }
   .formcontato__text {
     justify-self: center;
-    width: 100%;
+    min-width: 500px;
+    width: 60%;
   }
 }
 @media (max-width: 768px) {
-  .formcontato__img {
-    display: none;
-  }
   .formcontato__text {
     min-width: 450px;
     padding: 15px;
-    width: 95%;
+    min-width: 400px;
+    width: 80%;
   }
 }
 @media (max-width: 500px) {
   .formcontato__text {
-    min-width: 0;
-    width: 100%;
+    min-width: 200px;
+    width: 80%;
   }
   .formcontato__subtext {
     font-size: var(--static-subtitle);
@@ -178,5 +167,8 @@ section.formcontato {
   .formcontato__botao {
     padding: 10px;
     font-size: var(--static-paragraphs);
+  }
+  .warning__text {
+    font-size: var(--static-warning);
   }
 }

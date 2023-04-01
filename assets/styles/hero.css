@@ -23,7 +23,8 @@ section.title {
   min-width: 200px;
   order: 2;
   padding: 0;
-  margin: 0;
+  margin: 25px;
+  width: 25%;
 }
 
 .title__container {
@@ -31,7 +32,7 @@ section.title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 80%;
+  width: 70%;
 }
 
 .title__bio {
@@ -172,7 +173,7 @@ section.title {
     background: url(../banner_mobile.svg) center / cover no-repeat !important;
     flex-direction: column;
     gap: 25px;
-    height: calc(100vh + 100px);
+    height: calc(100vh + 50px);
     min-height: 500px;
     width: 100%;
   }

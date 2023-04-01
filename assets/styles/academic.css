@@ -19,6 +19,7 @@ section.academic {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 25px;
   margin: 100px 0;
   width: 82%;
@@ -85,7 +86,7 @@ section.academic {
     width: 88%;
   }
   .academic__courses__box {
-    height: 180px;
+    height: 300px;
     padding: 0;
     min-width: 200px;
   }
