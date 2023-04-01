@@ -3,7 +3,7 @@ section.title {
   background: url(../banner.svg) center /cover  no-repeat;
   background-attachment: fixed;
   display: flex;
-  height: 100vh;
+  height: calc(100vh + 100px);
   justify-content: space-around;
   min-height: 0;
 }
@@ -173,7 +173,7 @@ section.title {
     background: url(../banner_mobile.svg) center / cover no-repeat !important;
     flex-direction: column;
     gap: 25px;
-    height: calc(100vh + 50px);
+    height: 100vh;
     min-height: 500px;
     width: 100%;
   }
