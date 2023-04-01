@@ -173,8 +173,7 @@ section.title {
     background: url(../banner_mobile.svg) center / cover no-repeat !important;
     flex-direction: column;
     gap: 25px;
-    height: 100vh;
-    min-height: 500px;
+    height: 75vh;
     width: 100%;
   }
   .title__profile {
